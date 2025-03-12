@@ -58,6 +58,7 @@ def get_tasks(service, task_list_id):
     return results.get("items", [])
 
 
+@st.cache_data
 def process_tasks(all_tasks, all_lists):
     """Process tasks into a pandas DataFrame."""
     # Create a mapping of list IDs to names
