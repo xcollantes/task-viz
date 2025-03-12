@@ -12,7 +12,7 @@ PageConfig().get_config()
 show_pages(
     [
         Page("Home.py", "Getting started", ":house:"),
-        Page("pages/other.py", "Other page", ":mag:"),
+        Page("pages/todoist_viz.py", "Todoist Dashboard", ":chart_with_upwards_trend:"),
         Page("pages/task.py", "Task page", ":clipboard:"),
     ]
 )
