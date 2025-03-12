@@ -1,7 +1,7 @@
 """Other page."""
 
 from components.page_config import PageConfig
-
+import streamlit as st
 
 PageConfig().get_config()
 
