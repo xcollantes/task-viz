@@ -2,16 +2,18 @@
 
 import logging
 import os
+
 import streamlit as st
 from st_pages import Page, show_pages
-from components.page_config import PageConfig
 
+from components.page_config import PageConfig
 
 PageConfig().get_config()
 show_pages(
     [
         Page("Home.py", "Getting started", ":house:"),
         Page("pages/other.py", "Other page", ":mag:"),
+        Page("pages/task.py", "Task page", ":clipboard:"),
     ]
 )
 
